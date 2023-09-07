@@ -1,0 +1,57 @@
+.home-main-container{
+    background:url("/public/images/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:2em;
+}
+.navbar-item{
+flex-grow: 1;
+display: inline-block;
+padding:1em 2em;
+border: 2px solid red;
+cursor: pointer;
+}
+footer{
+    background-color: rgb(255, 255, 0);   
+    color:red;
+    font-size: 1.2rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:2em 1em;
+}
+.menu-item{
+width:100%;
+}
+.menu-section-heading{
+    font-weight: 700;
+    @apply text-center text-4xl my-6 mb-6 text-white
+}
+.menu-section-heading>hr{
+    border:1px solid red;
+    @apply my-6
+}
+.dish-card{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 30rem;
+    background-color: rgba(203, 203, 203,0.6);
+}
+.card-description{
+font-size: 2rem;
+text-align: center;
+}
+.menu-cards-container{
+    display:flex;
+    flex-direction: row;
+    gap:1em;
+}
+.menu-image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+}
